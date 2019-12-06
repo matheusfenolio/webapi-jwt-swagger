@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Alias>
+    <host>matheusfenolio.database.windows.net</host> <!--Server address-->
+    <port>1433</port> <!--Service port-->
+    <instance>BD</instance> <!--Instance-->
+    <user>matheusfenolio</user> <!--User-->
+    <password>M@theus164</password> <!--Password-->
+    <timeout>30</timeout> <!--Timeout-->
+    <type>sqlExtern</type> <!--Local/sqlExtern-->
+</Alias>
