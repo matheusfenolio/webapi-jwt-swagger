@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\source\\repos\\WebAPI_Swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj": {}
+    "E:\\GitHub\\webapi-jwt-swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\source\\repos\\WebAPI_Swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj": {
+    "E:\\GitHub\\webapi-jwt-swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\source\\repos\\WebAPI_Swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj",
+        "projectUniqueName": "E:\\GitHub\\webapi-jwt-swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj",
         "projectName": "WebAPI_Swagger",
-        "projectPath": "C:\\Users\\Matheus\\source\\repos\\WebAPI_Swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\source\\repos\\WebAPI_Swagger\\WebAPI_Swagger\\obj\\",
+        "projectPath": "E:\\GitHub\\webapi-jwt-swagger\\WebAPI_Swagger\\WebAPI_Swagger.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\webapi-jwt-swagger\\WebAPI_Swagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -45,6 +43,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -53,9 +55,9 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
-            "Swashbuckle.AspNetCore.Swagger": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.0-rc4, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -84,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
